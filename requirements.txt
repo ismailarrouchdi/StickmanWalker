@@ -1,0 +1,7 @@
+# Training environment for Stickman Walker. Requires Python 3.10.x
+# (mlagents 1.1.0 supports Python >= 3.10.1 and <= 3.10.12).
+mlagents==1.1.0
+# torch 2.9+ breaks the .onnx export of mlagents 1.1.0 (ModuleNotFoundError: onnxscript).
+torch<=2.8.0
+# setuptools 82+ removed pkg_resources, which mlagents-learn imports at start-up.
+setuptools<81

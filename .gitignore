@@ -1,0 +1,50 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Build and crash artefacts
+sysinfo.txt
+crashlytics-buildid.txt
+*.apk
+*.aab
+*.unitypackage
+
+# Note: .meta files must be committed, they link scripts to scenes and prefabs.
+
+# Python / ML-Agents
+.venv/
+venv/
+__pycache__/
+# ML-Agents timing files written on each Play
+/[Aa]ssets/ML-Agents/
+/[Aa]ssets/ML-Agents.meta
+*.pyc
+# Training output (checkpoints, TensorBoard logs). Keep the models you want in Assets/Stickman/Models/.
+/results/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

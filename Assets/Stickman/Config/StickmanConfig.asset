@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83c15ef7c98664644bf310d4170cab6c, type: 3}
+  m_Name: StickmanConfig
+  m_EditorClassIdentifier: Assembly-CSharp::Stickman.StickmanConfig
+  footLength: 0.26
+  footHeight: 0.06
+  footWidth: 0.09
+  ankleFromHeel: 0.25
+  ankleHeight: 0.08
+  shinLength: 0.43
+  thighLength: 0.43
+  torsoLength: 0.52
+  neckLength: 0.06
+  headRadius: 0.11
+  armLength: 0.68
+  limbRadius: 0.045
+  torsoRadius: 0.11
+  legDepthOffset: 0.09
+  armDepthOffset: 0.17
+  headMass: 5
+  torsoMass: 34
+  armMass: 4
+  thighMass: 7
+  shinMass: 3.5
+  footMass: 1.1
+  hip:
+    minAngle: -35
+    maxAngle: 100
+    neutralAngle: 0
+    stiffness: 600
+    damping: 50
+    maxTorque: 250
+  knee:
+    minAngle: -135
+    maxAngle: 2
+    neutralAngle: -5
+    stiffness: 500
+    damping: 30
+    maxTorque: 200
+  ankle:
+    minAngle: -45
+    maxAngle: 30
+    neutralAngle: 0
+    stiffness: 300
+    damping: 15
+    maxTorque: 120
+  shoulder:
+    minAngle: -80
+    maxAngle: 60
+    neutralAngle: 0
+    stiffness: 150
+    damping: 12
+    maxTorque: 60
+  neck:
+    minAngle: -25
+    maxAngle: 25
+    neutralAngle: 0
+    stiffness: 200
+    damping: 15
+    maxTorque: 50
+  invertJointSignConvention: 0
+  fixedTimestep: 0.01
+  solverIterations: 12
+  solverVelocityIterations: 4
+  maxAngularVelocity: 40
+  linearDamping: 0.05
+  angularDamping: 0.05
+  footFriction: 1
+  bodyFriction: 0.5
+  groundFriction: 0.8
+  decisionPeriod: 4
+  maxEpisodeSteps: 3000
+  actionResponsiveness: 0.3
+  defaultTargetSpeed: 1.3
+  defaultBalanceAssist: 0
+  speedRampDuration: 3
+  initialTiltNoise: 3
+  spawnHeight: 0.01
+  assistStiffness: 1000
+  assistDamping: 100
+  aliveWeight: 0.05
+  speedWeight: 0.4
+  speedTolerance: 0.3
+  progressWeight: 0.3
+  speedSmoothingTime: 1
+  speedRequiresPosture: 1
+  postureWeight: 0.2
+  tiltTolerance: 12
+  headHeightWeight: 0.25
+  headHeightTargetFraction: 0.97
+  headHeightTolerance: 0.05
+  headStabilityWeight: 0.05
+  headAngularSpeedTolerance: 1.5
+  armSwingWeight: 0.15
+  armSwingGain: 0.8
+  armSwingTolerance: 20
+  stanceKneeWeight: 0.1
+  stanceKneeFlexionAllowance: 15
+  stanceKneeTolerance: 15
+  styleShareWhenIdle: 0.3
+  stepWeight: 0.2
+  sameFootPenalty: 0.1
+  nonCrossingStepPenalty: 0.1
+  minStepLength: 0.15
+  targetStepLengthBase: 0.17
+  targetStepLengthPerSpeed: 0.42
+  minStepLengthFraction: 0.75
+  minSwingTime: 0.12
+  cadenceTolerance: 0.15
+  energyWeight: 0.15
+  jerkWeight: 0.01
+  slipWeight: 0.3
+  flightWeight: 0.5
+  maxFootHeight: 0.25
+  highFootWeight: 5
+  fallPenalty: 1
+  maxTilt: 60
+  minHeadHeightFraction: 0.55
+  stagnationWindow: 5
+  stagnationMinProgress: 0.25
+  areaCount: 16
+  areaSpacing: 12
+  groundLength: 150
+  groundBehindStart: 10
